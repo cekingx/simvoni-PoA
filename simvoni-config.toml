@@ -3,10 +3,17 @@ chain = "simvoni-spec.json"
 base_path = "$HOME/openethereum-node"
 [network]
 port = 30300
+allow_ips = "all"
+nat = "0.0.0.0"
 [rpc]
+interface = "all"
 port = 8540
-apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "parity_accounts"]
+apis = ["all"]
+cors = ["all"]
+hosts = ["all"]
 [websockets]
 port = 8450
+interface = "all"
+origins = ["all"]
 [account]
 password = ["node.pwds"]
