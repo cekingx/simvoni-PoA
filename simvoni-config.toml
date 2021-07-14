@@ -1,6 +1,6 @@
 [parity]
 chain = "simvoni-spec.json"
-base_path = "/home/cekingx/openethereum-node"
+base_path = "$HOME/openethereum-node"
 [network]
 port = 30300
 [rpc]
