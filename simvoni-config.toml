@@ -10,5 +10,3 @@ apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "par
 port = 8450
 [account]
 password = ["node.pwds"]
-[mining]
-reseal_on_txs = "none"
