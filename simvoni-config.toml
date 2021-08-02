@@ -17,3 +17,6 @@ interface = "all"
 origins = ["all"]
 [account]
 password = ["node.pwds"]
+[mining]
+# engine_signer = ""
+reseal_on_txs = "none"
