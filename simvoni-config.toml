@@ -19,4 +19,5 @@ origins = ["all"]
 password = ["node.pwds"]
 [mining]
 # engine_signer = ""
-reseal_on_txs = "none"
+reseal_on_txs = "all"
+reseal_max_period = 4000
