@@ -48,6 +48,7 @@
         "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
         "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
         "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
-        "0x00b108e445c6fb0e38ef3a7d4ba5b4f934471236": { "balance": "10000000000000000000000" }
+        "0x00b108e445c6fb0e38ef3a7d4ba5b4f934471236": { "balance": "10000000000000000000000" },
+        "0xb605A79518dDd964ec079223b4c93a11a1f6F016": { "balance": "666000000000000000000" }
     }
 }
